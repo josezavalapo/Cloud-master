@@ -1,24 +1,54 @@
-<!--The content below is only a placeholder and can be replaced.-->
 <!DOCTYPE html>
-<html>
-<body>
-<canvas id="myCanvas" width="1880" height="50" style="border:1px solid #d3d3d3;">
-</canvas>
-<div class="content" style="text-align:center">
-  <h1>
-    Yourface
-  </h1>
-</div>
-<h2>Menú</h2>
-<ul>
-  <li>
-    <h2>Upload Image</h2>
-  </li>
-  <li>
-    <h2>My Images</h2>
-  </li>
-</ul>
-<button type="button" onclick="alert('Quiuvo')">Subir Imagen</button>
-</body>
-</html>
+<html lang = "en">
+  <head>
+    <title>YourFace: Main menu</title>
+  </head>
+  <body>
 
+    <!--canvas id="myCanvas" width="1880" height="50" style="border:1px solid #d3d3d3;">
+    </canvas-->
+
+    <!--Barra de menú-->
+    <div class = "topBar" >
+      <ul class = "menu">
+        <li>YourFace</li>
+      </ul>
+      <ul class = "account">
+        <li>username@domain</li>
+        <li>settings</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!--Barra lateral izquierda-->
+    <div class = "panel">
+      <h1>Menu</h1>
+      <ul>
+        <li>
+          <p>Upload Image</p>
+        </li>
+        <li>
+          <p>My Images</p>
+        </li>
+      </ul>
+    </div>
+
+    <!--Panel principal (Zona de carga)-->
+    <div class="content">
+      <h1>
+        Yourface
+      </h1>
+      <button type="button" onclick="alert('Hola Mundo')">Upload Image</button>
+    </div>
+
+    <!--Barra inferior (Versión y acerca de)-->
+    <div class="bottomBar">
+      <ul>
+        <li>Beta 0.1</li>
+        <li>About Us</li>
+      </ul>
+    </div>
+
+  </body>
+</html>
