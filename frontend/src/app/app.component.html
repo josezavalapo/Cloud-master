@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang = "en">
+  <head>
+    <title>YourFace: Main menu</title>
+  </head>
+  <body>
+
+    <!--Barra de menú-->
+    <div class = "topBar" >
+      <ul class = "menu">
+        <li>YourFace</li>
+      </ul>
+      <ul class = "account">
+        <li>username@domain</li>
+      </ul>
+    </div>
+
+    <hr>
+
+    <!--Barra lateral izquierda-->
+    <div class = "panel">
+      <h1>Menu</h1>
+      <ul>
+        <li>
+          <p>Upload Image</p>
+        </li>
+        <li>
+          <p>My Images</p>
+        </li>
+      </ul>
+    </div>
+
+    <!--Panel principal (Zona de carga)-->
+    <div class="content">
+      <!--<button type="button" onclick="alert('Subir archivo')">Upload Image</button>-->
+      <image-upload
+        [max]="100"
+        [url]="'example.com/images/upload'"
+        [headers]="{Authorization: 'MyToken'}"
+        [buttonCaption]="'Select Images!'"
+        [dropBoxMessage]="'¡Sube tus imagenes aqui!'"
+        [extensions]="['jpg','png','gif']"
+        [uploadedFiles]="['http://example.com/path/to/my/file']"
+        [class]="'customClass'"      
+        (removed)="onRemoved($event)"
+        (uploadFinished)="onUploadFinished($event)"
+        (uploadStateChanged)="onUploadStateChanged($event)">imagebutton
+      </image-upload>
+    </div>
+
+    <!--Barra inferior (Versión y acerca de)-->
+    <div class="bottomBar">
+      <ul>
+        <li>Beta 0.1</li>
+        <li>About Us</li>
+      </ul>
+    </div>
+
+  </body>
+</html>
