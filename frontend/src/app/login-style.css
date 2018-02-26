@@ -1,0 +1,90 @@
+/*Documentación CSS:
+  Global*/
+*{
+	font-family: Arial;
+}
+
+/*Línea (global)*/
+hr {
+	border: 2px solid #aaaaaa;
+    	display: block;
+    	margin-top: 0px;
+    	margin-bottom: 0px;
+    	width: 100%;
+}
+
+/*Clases:*/
+/*Barra general*/
+.topBar {
+    	background: #45959c ;
+    	color: #ffffff;
+    	margin: 0 -4px 0 0;
+    	padding: 0 4px 0 4px;
+}
+
+/*Menú general*/
+.menu {
+	text-align: left;
+	padding: 0 0 0 10px;
+	display: inline-block;
+}
+
+/*Elementos de la cuenta*/
+.account li {
+	padding: 0 6px 0 6px;
+}
+
+/*Contenido (general)*/
+.content{
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	padding-top: 100px;
+	margin: 32px 40px 54px 40px;
+}
+
+/*Contenido (Título h1)*/
+.content h1{
+	font-size: 70px;
+	color: #45959c;
+	padding: 0 0 50px 300px;
+ }
+
+/*Contenido (parrafos p)*/
+.content p {
+	font-size: 24px;
+	color: #45959c;
+	padding: 0 0 0 300px;
+ }
+
+/*Contenido (formulario)*/
+.content form input {
+	margin: 0 0 0 50px;
+	border-color: #45959c;
+ }
+
+/*Contenido (Botón)*/
+.content button {
+	font-size: 20px;
+	color: #45959c;
+	border-radius: 12px;
+	border: 2px solid #45959c;
+	padding: 10px 12px 10px 12px;
+	margin: 50px 0 0 300px;
+	background: #ffffff;
+}
+
+/*Barra de abajo*/
+.bottomBar{
+	background: #aaaaaa ;
+    	color: #ffffff;
+    	padding: 1px 4px 1px 4px;
+    	margin-top: 195px;
+    	text-align: center;
+}
+
+.bottomBar li {
+	display: inline;
+	padding: 0 30px 0 30px;
+}
