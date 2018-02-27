@@ -1,10 +1,10 @@
-/*Documentación CSS:
+/*DocumentaciÃ³n CSS:
   Global*/
 *{
 	font-family: Arial;
 }
 
-/*Línea (global)*/
+/*LÃ­nea (global)*/
 hr {
 	border: 2px solid #aaaaaa;
     	display: block;
@@ -22,7 +22,7 @@ hr {
     	padding: 0 4px 0 4px;
 }
 
-/*Menú general*/
+/*MenÃº general*/
 .menu {
 	text-align: left;
 	padding: 0 0 0 10px;
@@ -44,7 +44,7 @@ hr {
 	margin: 32px 40px 54px 40px;
 }
 
-/*Contenido (Título h1)*/
+/*Contenido (TÃ­tulo h1)*/
 .content h1{
 	font-size: 70px;
 	color: #45959c;
@@ -64,7 +64,7 @@ hr {
 	border-color: #45959c;
  }
 
-/*Contenido (Botón)*/
+/*Contenido (BotÃ³n)*/
 .content button {
 	font-size: 20px;
 	color: #45959c;
