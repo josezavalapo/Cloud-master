@@ -11,17 +11,9 @@ export class AppComponent {
   title = 'EC3: Equipo chingón';
   users: any = null;
 
-   constructor(private _http: Http) {
-  this.getUsers();
+   constructor() {
+
 }
 
-private getUsers() {
-  return this._http.get('http://localhost:8000/info')
-              .map((res: Response) => res.json())
-               .subscribe(users => {
-                      this.users = users;
-                      console.log(this.users);
-              });
-}
 
 }

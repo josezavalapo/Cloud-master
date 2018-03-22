@@ -1,51 +1,26 @@
-<!DOCTYPE html>
-<html lang = "en">
-  <head>
-    <!--<link rel="stylesheet" type="text/css" href="app.component.css">
-    <meta charset="utf-8">-->
-    <title>YourFace: Main menu</title>
-  </head>
-  <body>
 
-    <!--Barra de menú-->
-    <div class = "topBar" >
-    <ul class = "menu">
-    	<li>YourFace</li>
-    </ul>
-    </div>
+<div class="card card-custom" style=" width: 420px; height: 320px; ">
 
-    <hr>
+  <div class="card-body">
+    <h1 class="card-title">Login user</h1>
+    <form>
+      <label>
+        Email
+      <input placeholder="email" type="email" id="email">
 
-    <!--Panel principal (Zona de carga)-->
-    <div class="content">
-      <h1>Yourface</h1>
-      <form>
-	      <p>Usuario:
-          <input type="text" name="username">
-	      </p>
+    </label>
+    <label>
+      Password
+      <input placeholder="password" type="password" id="password">
 
-	    <br>
+    </label>
+    </form>
+  <button (click)="onClickMe()">Enter</button>
+  </div>
+</div>
 
-	      <p>Contrasena:
-          <input type="text" name="password">
-	      </p>
-      </form>
-      <a href="main.html"><button type="button" onclick="alert('Iniciando sesion')">Iniciar sesion</button></a>
-    </div>
+<div class="login-background"> </div>
 
-    <!--Barra inferior (Versión y acerca de)-->
-    <div class="bottomBar">
-      <ul>
-        <li>Beta 0.1</li>
-        <li>About Us</li>
-      </ul>
-    </div>
 
-	<p>
-  		login-component works!
-	</p>
 
-	<router-outlet></router-outlet>
-
-  </body>
-</html>
+<router-outlet></router-outlet>

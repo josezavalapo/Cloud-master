@@ -1,0 +1,135 @@
+/*Documentación CSS:
+  Global*/
+*{
+	font-family: Arial;
+}
+
+/*Línea (global)*/
+hr {
+	border: 2px solid #aaaaaa;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+/*Clases:*/
+/*Barra general*/
+.topBar {
+    background: #45959c ;
+    color: #ffffff;
+    margin: 0 -4px 0 0;
+    padding: 0 4px 0 4px;
+}
+
+/*Elementos listados de la barra*/
+.topBar li {
+	display: inline;
+}
+
+/*Menú general*/
+.menu {
+	text-align: left;
+	padding: 0 0 0 10px;
+	display: inline-block;
+}
+
+/*Cuenta en general*/
+.account {
+	text-align: right;
+	padding: 0 4px 0 0;
+	float: right;
+}
+
+/*Elementos de la cuenta*/
+.account li {
+	padding: 0 6px 0 6px;
+}
+
+/*Panel (general)*/
+.panel {
+	background: #45959c ;
+	float: left;
+	width: 200px;
+	height: auto;
+	color: #ffffff;
+	padding: 0 14px 700px 14px;
+	width: 200px;
+	height: auto;
+	overflow: auto;
+	display: block;
+}
+
+/*Panel (lista)*/
+.panel li {
+	list-style: none;
+}
+
+/*Contenido (general)*/
+.content{
+	display: inline-block;
+	width: 80%;
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+	margin: 32px 40px 54px 40px;
+}
+
+/*Contenido (Título h1)*/
+.content h1{
+	font-size: 70px;
+	color: #45959c;
+ }
+
+/*Contenido (Botón)*/
+.content button {
+	font-size: 20px;
+	color: #45959c;
+	border-radius: 12px;
+	border: 2px solid #45959c;
+	padding: 10px 12px 10px 12px;
+	background: #ffffff;
+}
+
+/*Barra de abajo*/
+.bottomBar{
+	background: #aaaaaa ;
+    color: #ffffff;
+    padding: 1px 4px 1px 4px;
+    margin-top: 538px;
+    text-align: center;
+}
+
+/*Lista de la barra de abajo*/
+.bottomBar li {
+	display: inline;
+	padding: 0 30px 0 30px;
+}
+
+/*Botón imagen*/
+.ImageButton {
+    background-color: #dd3;
+    border-radius: 5px;
+    margin:5px;
+    width: 500px;
+}
+
+/*Botón imagen: Carga*/
+.ImageButton .img-ul-upload {
+    background-color: #000 !important;
+}
+
+/*Botón imagen: Limpieza*/
+.ImageButton .img-ul-clear {
+    background-color: #B819BB !important;
+}
+
+/*Botón imagen: Arrastrar la imagen*/
+.ImageButton .img-ul-drag-box-msg {
+    color: purple !important;
+}
+
+/*Botón imagen: Contenedor*/
+.ImageButton.img-ul-container {*/
+    background-color: #FF6CAD !important;
+}

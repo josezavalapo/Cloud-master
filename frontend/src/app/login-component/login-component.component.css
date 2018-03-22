@@ -1,90 +1,54 @@
-/*Documentación CSS:
-  Global*/
-*{
-	font-family: Arial;
+p {
+  font-size: 30px;
 }
 
-/*Línea (global)*/
-hr {
-	border: 2px solid #aaaaaa;
-    	display: block;
-    	margin-top: 0px;
-    	margin-bottom: 0px;
-    	width: 100%;
+.card-body{
+  padding: 10px 40px 10px 40px;
+  text-align: center;
 }
 
-/*Clases:*/
-/*Barra general*/
-.topBar {
-    	background: #45959c ;
-    	color: #ffffff;
-    	margin: 0 -4px 0 0;
-    	padding: 0 4px 0 4px;
+
+.login-background {
+
+  background: url("http://medstack.co/content/uploads/2017/08/database.jpg") ;
+  height: 800px;
+  width: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  opacity: 0.3;
+  margin-top: -500px;
+
 }
 
-/*Menú general*/
-.menu {
-	text-align: left;
-	padding: 0 0 0 10px;
-	display: inline-block;
+.card-custom {
+  margin: auto;
+  margin-top: 10.3%;
+  z-index: 3;
 }
 
-/*Elementos de la cuenta*/
-.account li {
-	padding: 0 6px 0 6px;
+
+.log-btn {
+  margin: auto;
+  display: block;
 }
 
-/*Contenido (general)*/
-.content{
-	display: inline-block;
-	width: 80%;
-	height: auto;
-	text-align: center;
-	padding-top: 100px;
-	margin: 32px 40px 54px 40px;
+label {
+  margin-bottom: 19%;
 }
 
-/*Contenido (Título h1)*/
-.content h1{
-	font-size: 70px;
-	color: #45959c;
-	padding: 0 0 50px 300px;
- }
-
-/*Contenido (parrafos p)*/
-.content p {
-	font-size: 24px;
-	color: #45959c;
-	padding: 0 0 0 300px;
- }
-
-/*Contenido (formulario)*/
-.content form input {
-	margin: 0 0 0 50px;
-	border-color: #45959c;
- }
-
-/*Contenido (Botón)*/
-.content button {
-	font-size: 20px;
-	color: #45959c;
-	border-radius: 12px;
-	border: 2px solid #45959c;
-	padding: 10px 12px 10px 12px;
-	margin: 50px 0 0 300px;
-	background: #ffffff;
+h1 {
+  text-align: center;
+  margin-bottom: 5%;
+  color: #45959c;
 }
 
-/*Barra de abajo*/
-.bottomBar{
-	background: #aaaaaa ;
-    	color: #ffffff;
-    	padding: 1px 4px 1px 4px;
-    	margin-top: 195px;
-    	text-align: center;
+button {
+  width: 200px;
+  background: #45959c;
+  color: white;
 }
 
-.bottomBar li {
-	display: inline;
-	padding: 0 30px 0 30px;
+label{
+  color: #45959c;
 }

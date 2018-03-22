@@ -7,11 +7,14 @@ import { RouterModule, Routes } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponentComponent } from './login-component/login-component.component';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { DomsComponent } from './doms/doms.component';
 
 
 const appRoutes: Routes = [
   { path: 'signup', component: AppComponent },
   { path: 'login',      component: LoginComponentComponent },
+  { path: 'dashboard',      component: DashboardComponent },
   { path: '**', component: PageNotFoundComponent }
 ];
 
@@ -20,9 +23,12 @@ const appRoutes: Routes = [
   declarations: [
     AppComponent,
     LoginComponentComponent,
-    PageNotFoundComponent
+    PageNotFoundComponent,
+    DashboardComponent,
+    DomsComponent
   ],
   imports: [
+
     HttpModule,
     RouterModule.forRoot(
     appRoutes,
@@ -31,9 +37,8 @@ const appRoutes: Routes = [
     BrowserModule
 
   ],
-  
+
   providers: [],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
-

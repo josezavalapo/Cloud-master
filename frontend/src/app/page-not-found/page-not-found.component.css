@@ -1,4 +1,43 @@
-h1 {
-  font-size: 40px;
-  color: red;
+/*Documentación CSS:
+  Global*/
+*{
+	font-family: Arial;
+}
+
+/*Línea (global)*/
+hr {
+	border: 2px solid #aaaaaa;
+    display: block;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 100%;
+}
+
+/*Clases:*/
+/*Barra general*/
+.topBar {
+    background: #45959c ;
+    color: #ffffff;
+    margin: 0 -4px 0 0;
+    padding: 0 4px 0 4px;
+}
+
+/*Contenido (general)*/
+.content{
+	height: auto;
+	text-align: center;
+	padding-top: 50px;
+	margin: 32px 40px 54px 40px;
+	color: #45959c;
+	font-size: 120;
+	text-align: center; 
+}
+
+/*Barra de abajo*/
+.bottomBar{
+	background: #aaaaaa ;
+    color: #ffffff;
+    padding: 1px 4px 1px 4px;
+    margin-top: 538px;
+    text-align: center;
 }
